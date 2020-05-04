@@ -8,4 +8,7 @@ weather app with ui from nodejs tutorial @udemy
 * express
 
 ### working example for command
-```node src/app.js"```
+```npm run start```
+```npm run dev```
+```node src/app.js```
+```nodemon src/app.js -e js,hbs```
