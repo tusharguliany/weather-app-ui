@@ -1,5 +1,3 @@
-console.log('Client Side JS is loaded');
-
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('#search');
 const message1 = document.querySelector('#message1');
