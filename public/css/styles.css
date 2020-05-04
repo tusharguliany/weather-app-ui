@@ -24,7 +24,7 @@ header {
   margin: 16px 0 47px 0;
 }
 
-header a {
+header a, p a {
   color: #888888;
   margin-right: 16px;
   text-decoration: none;
@@ -32,7 +32,11 @@ header a {
   transition: 0.3s ease-in-out;
 }
 
-header a:hover {
+p a {
+  margin-right: 0;
+}
+
+header a:hover, p a:hover {
   color: #535353;
 }
 
