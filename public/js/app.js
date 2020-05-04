@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit', (e) => {
         const errorString = 'You must provide an address.';
         message1.textContent = errorString;
     } else {
-        fetch(`http://localhost:3000/weather?address=${encodeURIComponent(address)}`).then((response) => {
+        fetch(`/weather?address=${encodeURIComponent(address)}`).then((response) => {
             response.json().then((data) => {
                 if (data.error) {
                     message1.textContent = data.error;
